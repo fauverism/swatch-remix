@@ -1,0 +1,16 @@
+/* Style: Blue */
+
+a, .post-meta a:link, .post-meta a:visited, .post-more a:link, .post-more a:visited, .post p.tags a:link, .post p.tags a:visited { color: #2c92ab; }
+a:hover, .post-meta a:hover, .post-more a:hover, .post p.tags a:hover, #portfolio #port-tags .port-cat a:hover, #portfolio #port-tags .port-cat a.current { color: #105e71; }
+
+#wrapper { background-image: url(blue/wrapper-bg-colourstrip.png); }
+#header  { background-image: url(blue/bg-ripple-header.png); }
+#featured-slider  { background: #ccc url(blue/bg-featured.png) repeat top left; }
+#mini-features  { background: url(blue/bg-minifeatures.png) repeat top left; }
+#footer  { background: url(blue/bg-ripple-footer.png) repeat top left; }
+
+.post-meta a:link, .post-meta a:visited, .post-more a:link, .post-more a:visited, .post p.tags a:link, .post p.tags a:visited { color: #2c92ab; }
+
+#wrapper #comments .comment-head .name  { color: #2c92ab; }
+
+#wrapper #comments .reply a { color: #2c92ab; }

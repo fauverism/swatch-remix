@@ -1,0 +1,28 @@
+*** Swatch Changelog ***
+
+2011.09.06 - version 1.2.0
+ * /includes/featured.php - Fix conflict between automatic thumbnails theme option and non-image slides with images in the slide content.
+ * /includes/theme-actions.php - Fixed styling conflict between custom link styles and site-title link colour. Added body class for if the "Enable Lightbox" theme option is checked or if on a page that is a part of the "Portfolio" component.
+ * /includes/theme-options.php - Added "Enable Lightbox" theme option under the "Dynamic Images" tab.
+ * /includes/theme-functions.php - Load PrettyPhoto JavaScript and CSS if the "Enable Lightbox" theme option is checked and not on a "Portfolio"-related screen.
+ * /includes/theme-js.php - Add "woothemes_add_javascript" and "woothemes_add_css" actions appropriately. Re-order general.js enqueue.
+ * /includes/js/general.js - Add JavaScript to automatically activate PrettyPhoto on all links that point to image files.
+
+2011.09.05 - version 1.1.1
+ * style.css - Removed text colour from #connect h3 to allow typography settings to override this.
+ * /includes/gallery.php - Set the height of the portfolio gallery slider to the height of the first slide on load.
+ * /includes/theme-js.php - Remove enqueue of jCarousel script on the homepage.
+ * /includes/theme-actions.php - Make sure default layout body class is added correctly on portfolio items and in general. Styling Options apply correctly when using alt styles.
+ * /includes/featured.php - Swap check of thumbnail and video around, and check if no video is set before checking for a thumbnail (fixes YouTube video display issue in slider).
+
+2011.09.01 - version 1.1.0
+ * /includes/widgets/widget-woo-blog.php - Added "Hits from the Blog" dedicated custom widget.
+ * /includes/widgets/widget-woo-portfolio.php - Added "Portfolio Snapshots" dedicated custom widget.
+ * /includes/theme-widgets.php - Loaded in custom "Woo - Blog" and "Woo - Portfolio" widgets.
+ * /includes/home-blog.php - Adjusted CSS class to be widget_woo_blog instead of widget_blog, for styling consistency with "Woo - Blog" widget.
+ * /includes/js/portfolio.js - Added support for the hover fade on the "Woo - Portfolio" widget.
+ * /includes/theme-actions.php - Adjusted custom styling logic to make sure link colours apply to comments list.
+ * style.css - Adjusted "Hits from the Blog" styling to be on the widget_woo_blog CSS class, instead of the #blog ID. Fixed "Subscribe & Connect title doesn't apply custom typography" issue by removing default font CSS on #connect h3.
+
+2011.08.31 - version 1.0
+ * First release!

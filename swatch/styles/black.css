@@ -1,0 +1,64 @@
+/* Style: Black */
+
+#wrapper { background-image: url(black/wrapper-bg-colourstrip.png); }
+
+a { color: #000000; }
+a:hover, #portfolio #port-tags .port-cat a:hover, #portfolio #port-tags .port-cat a.current { color: #000000; }
+
+.nav a:hover, 
+.nav li.current_page_item a, 
+.nav li.current_page_parent a,
+.nav li.current-menu-ancestor a,
+.nav li.current-cat a,
+.nav li.current-menu-item a,
+.nav li.sfHover  { color: #fff; }
+
+.post-meta a:link, .post-meta a:visited, .post-more a:link, .post-more a:visited, .post p.tags a:link, .post p.tags a:visited { color: #000000; }
+
+#wrapper #comments .comment-head .name  { color: #000000; }
+
+#wrapper #comments .reply a { color: #000000; }
+
+/* Buttons */
+a.button, 
+#commentform #submit,
+.submit {
+	border: 1px solid #262626;
+	border-bottom-color: #161616;
+	
+	/*Background*/
+	background: #414141; /*Fallback*/
+	background: -webkit-gradient(
+					linear,
+					left top,
+					left bottom,
+					color-stop(.2, #414141),
+					color-stop(1, #262626)
+				);
+	background: -moz-linear-gradient(
+					center top,
+					#414141 20%,
+					#262626 100%
+				);
+}
+
+a.button:hover, 
+a.button.hover, 
+a.button.active,
+#commentform #submit:hover,
+.submit:hover {
+	/*Background*/
+	background: #232323; /*Fallback*/
+	background: -webkit-gradient(
+					linear,
+					left top,
+					left bottom,
+					color-stop(.2, #232323),
+					color-stop(1, #000000)
+				);
+	background: -moz-linear-gradient(
+					center top,
+					#232323 20%,
+					#000000 100%
+				);
+}

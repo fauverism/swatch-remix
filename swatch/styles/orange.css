@@ -1,0 +1,70 @@
+/* Style: Orange */
+
+a, .post-meta a:link, .post-meta a:visited, .post-more a:link, .post-more a:visited, .post p.tags a:link, .post p.tags a:visited { color: #dd7d29; }
+a:hover, .post-meta a:hover, .post-more a:hover, .post p.tags a:hover, #portfolio #port-tags .port-cat a:hover, #portfolio #port-tags .port-cat a.current { color: #af5200; }
+
+#wrapper { background-image: url(orange/wrapper-bg-colourstrip.png); }
+#header  { background-image: url(orange/bg-ripple-header.png); }
+#featured-slider  { background: #ccc url(orange/bg-featured.png) repeat top left; }
+#mini-features  { background: url(orange/bg-minifeatures.png) repeat top left; }
+#footer  { background: url(orange/bg-ripple-footer.png) repeat top left; }
+
+.nav a:hover, 
+.nav li.current_page_item a, 
+.nav li.current_page_parent a,
+.nav li.current-menu-ancestor a,
+.nav li.current-cat a,
+.nav li.current-menu-item a,
+.nav li.sfHover  { background: #402b21; color: #fff; }
+.nav li ul  { background: #402b21; }
+#navigation .nav li ul li a { border-top:1px solid #5f4235; border-bottom:1px solid #342017; }
+
+.post-meta a:link, .post-meta a:visited, .post-more a:link, .post-more a:visited, .post p.tags a:link, .post p.tags a:visited { color: #dd7d29; }
+
+#wrapper #comments .comment-head .name  { color: #dd7d29; }
+
+#wrapper #comments .reply a { color: #dd7d29; }
+
+/* Buttons */
+a.button, 
+#commentform #submit,
+.submit {
+	border: 1px solid #af5200;
+	border-bottom-color: #883f00;
+	
+	/*Background*/
+	background: #dd7d29; /*Fallback*/
+	background: -webkit-gradient(
+					linear,
+					left top,
+					left bottom,
+					color-stop(.2, #dd7d29),
+					color-stop(1, #af5200)
+				);
+	background: -moz-linear-gradient(
+					center top,
+					#dd7d29 20%,
+					#af5200 100%
+				);
+}
+
+a.button:hover, 
+a.button.hover, 
+a.button.active,
+#commentform #submit:hover,
+.submit:hover {
+	/*Background*/
+	background: #ac570d; /*Fallback*/
+	background: -webkit-gradient(
+					linear,
+					left top,
+					left bottom,
+					color-stop(.2, #ac570d),
+					color-stop(1, #813e02)
+				);
+	background: -moz-linear-gradient(
+					center top,
+					#ac570d 20%,
+					#813e02 100%
+				);
+}
